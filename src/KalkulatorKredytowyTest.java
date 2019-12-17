@@ -15,6 +15,11 @@ public class KalkulatorKredytowyTest {
         System.out.println("Podaj cenę metra kwadratowego nieruchomości w zł:");
         BigDecimal cenaMetraKwadratowegoNieruchomosci = input.nextBigDecimal();
 
+        //Oblicz wartość nieruchomości
+        BigDecimal wartośćNieruchomości = metrazNieruchomosci.multiply(cenaMetraKwadratowegoNieruchomosci);
+        //Wyświetl wartość nieruchomości
+        System.out.printf("Wartość nieruchomości wynosi: %,.2fzł\n", wartośćNieruchomości);
+
 
     }
 }
