@@ -10,5 +10,11 @@ public class KalkulatorKredytowyTest {
         //Podaj metraż nieruchomości
         System.out.println("Podaj metraż nieruchomości w m2:");
         BigDecimal metrazNieruchomosci = input.nextBigDecimal();
+
+        //Podaj cenę metra kwadratowego nieruchomości:
+        System.out.println("Podaj cenę metra kwadratowego nieruchomości w zł:");
+        BigDecimal cenaMetraKwadratowegoNieruchomosci = input.nextBigDecimal();
+
+
     }
 }
